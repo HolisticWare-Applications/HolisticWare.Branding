@@ -1,0 +1,45 @@
+{
+  "name": "sargam-icons",
+  "version": "1.3.1",
+  "description": "A collection of 250+ open-source icons devoted to match your exquisite designs.",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planetabhi/sargam-icons.git"
+  },
+  "keywords": [
+    "icons",
+    "line-icons",
+    "fill-icons",
+    "iconset",
+    "svg",
+    "library"
+  ],
+  "author": "Abhimanyu Rana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/planetabhi/sargam-icons/issues"
+  },
+  "homepage": "https://github.com/planetabhi/sargam-icons#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "npm-run-all": "^4.1.5",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@sargamdesign/colors": "^2.0.0"
+  }
+}
