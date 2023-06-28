@@ -134,3 +134,13 @@ icons.md
     *   https://github.com/devicons/devicon.git
 
     *   https://github.com/devicons/devicon/archive/refs/heads/master.zip
+
+*   Microsoft Fluent system iconography
+
+    *   https://fluent2.microsoft.design/
+
+    *   https://www.figma.com/community/file/836835755999342788/Microsoft-Fluent-system-iconography
+
+    *   https://www.i-programmer.info/news/89-net/15132-net-maui-adds-fluid-ui-control-styling.html
+
+    
