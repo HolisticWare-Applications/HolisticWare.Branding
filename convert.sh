@@ -1,18 +1,22 @@
 #!/bin/bash
 
-export INKSCAPE=/Applications/Inkscape.app/Contents/Resources/bin/inkscape 
+# export INKSCAPE=/Applications/Inkscape.app/Contents/Resources/bin/inkscape 
+export INKSCAPE=inkscape
 
-export FILES_SVG="`find . -type f  -name '*.svg'`"
+export FILES_SVG="`find ./svgs/holisticware/ -type f \( -name '*.svg' -and -not -name '._*' \)`"
 #echo $FILES_SVG
+
+IFS=$'\n'
+# ZSH does not split words by default (like other shells):
+setopt sh_word_split
 
 function convert
 {
-	for FILE_SVG in "${FILES_SVG}"
+	for FILE_SVG in ${FILES_SVG}
 	do		
-		echo "+++" "$FILE_SVG"		
-		#mkdir -p "$FILE_PATH_CHANGED"
-
-		#convert_for_android "$FILE_SVG" "$FILE_PATH_CHANGED"
+		echo "========================================================================================================="
+		echo "+++" $FILE_SVG
+		export DIR=$FILE_SVG.pngs/
 
 	done		
 }
